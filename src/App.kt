@@ -38,6 +38,6 @@ fun main() {
     while (x < 4) {
         y = index[x]
         println("Fruit = ${fruit[y]}")
-        x = x + 1
+        x += 1
     }
 }
